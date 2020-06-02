@@ -1,0 +1,39 @@
+.page-home{
+    display: flex;
+    background-image: url(https://lh3.googleusercontent.com/proxy/nqrvqCbovr5dxBHfr2uyIHNlVRrRrR6fUmQ_CwfSQk8BsXXOEIsp_Pa4wSmdig6-xfxPea6TDHlwGi9jrn_2O_-UQXeYBp4PWMRzVjzttndc5DY1JBA6KM0562ecYC39jfU-u7mKIjFpxjJC05NIVNodMA);
+    height: 500px;
+    width: 100%;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.imgae-male{
+    width: 50%;
+    display: flex;
+
+    justify-content: center;
+    border-right: 1px solid red;
+}
+.imgae-female{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.day1-female{
+    display: flex;
+    height: 100%;
+}
+.list-day{
+    border-right: 1px solid blue;
+    width: 20%;
+}
+table{
+    border: 1px dashed red;
+}
+.tool{
+    width: 40%;
+    padding: 50px;
+}
+.food{
+    width: 40%;
+
+}
