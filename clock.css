@@ -1,0 +1,48 @@
+body{
+	text-align: center;
+	background: #00ECB9;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+<p>– Lần lặp: 20<br>
+– Ván: 3<br>
+– Đứng thẳng người, hai tay duỗi thẳng 2 bên thân người.<br>
+– Duỗi chân phải dài sang bên phải về phía trên, hạ người xuống cho tới khi nào đùi song song với sàn, duỗi chân còn lại thẳng ra. Hai mũi chân hướng về phía trước. Hai tay ép chặt lại.<br>
+– Sau đó, chéo chân phải ra sau, hạ người xuống cho tới khi nào cẳng tay song song với sàn. Hai tay duỗi thẳng hai bên thân người.<br>
+– Đứng thẳng dậy và tiếp tục lặp lại. Đó là 1 lần lặp.<br>
+– Tiếp tục lặp lại thêm 19 lần nữa.<br>
