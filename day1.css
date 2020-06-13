@@ -1,98 +1,442 @@
-  
-body{
-    background-image: url(https://lh3.googleusercontent.com/proxy/nqrvqCbovr5dxBHfr2uyIHNlVRrRrR6fUmQ_CwfSQk8BsXXOEIsp_Pa4wSmdig6-xfxPea6TDHlwGi9jrn_2O_-UQXeYBp4PWMRzVjzttndc5DY1JBA6KM0562ecYC39jfU-u7mKIjFpxjJC05NIVNodMA);
-    height: 100%;
-    background: aqua;
+body {
+  height: 100%;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
 
 }
-.page-home{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    /* background-repeat: no-repeat; */
-    background-size: cover;
-}
-.imgae-male{
-    width: 50%;
-    display: flex;
-
-    justify-content: center;
-    border-right: 1px solid red;
-}
-.imgae-female{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-.day1-female{
-    display: flex;
-    height: 100%;
-}
-.list-day{
-    border-right: 1px solid blue;
-    width: 20%;
-}
-table{
-    border: 1px dashed red;
-}
-.tool{
-    display: flex;
-    flex-direction: column;
-    width: 75%;
-    background-image: url(https://image.freepik.com/free-photo/skipping-rope-dumbbells-pair-shoes-with-exercise-mat-yellow-background_23-2147924598.jpg);
-    border: 1px solid blue;
-    background-size: cover;
-}
-.food{
-    width: 40%;
-
-}
-.day-exercise{
-    width: 25%;
-    border: 1px solid blue;
-    background-image: url(https://cdn5.vectorstock.com/i/1000x1000/33/24/infographics-bright-rainbow-background-list-vector-1873324.jpg);
-    background-size: cover;
-}
-.day-exercise ul{
-    list-style: none;
-    padding: 0;
-}
-.day-exercise ul li{
-    text-align: center;
+.list30{
     border-bottom: 1px solid aqua;
+    font-family: cursive;
+    color: #e20812;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px -3px 2px cyan;
+ 
 }
-.days{
-    text-align: center;
-    border-bottom: 1px solid tomato;
-}
-.days h2{
-    color: tomato;
-}
-#show{
+.time{
     display: flex;
-    border-bottom: 1px solid blue;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: space-between;
 }
-.btn{
+.Header {
+  padding: 17px;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.Header .logo {
+  position: relative;
+  font-size: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.Header .logo span {
+  color: #37d72f;
+}
+.Header .toggle img {
+  max-width: 100px;
+}
+.Header .toggle {
+  max-width: 60px;
+  cursor: pointer;
+}
+.Header:hover{
+  color: red;
+}
+
+.page-home {
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+}
+.imgae-male {
+  width: 50%;
+  display: flex;
+
+  justify-content: center;
+  border-right: 1px solid red;
+}
+
+.images{
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+.images .btn { 
+  width: 37px;
+  position: absolute;
+  top: 104px;
+  right: 45px; 
+   transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.images img{
+  height: 100px;
+  width: 1223px;
+  object-fit: cover;
+  margin: 5px;
+}
+.imgae-female {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.day1-female {
+  display: flex;
+  height: 100%;
+}
+.list-day {
+  border-right: 1px solid blue;
+  width: 20%;
+}
+.tool {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: 100%;
+  background: white;
+  margin-left: 3px;
+}
+.move-btn{
     display: flex;
-    justify-content: center;
-    padding: 0;
+    justify-content: space-between;
+    padding: 18px;
+    background: black;
+}
+.food {
+  width: 40%;
+}
+.day-exercise {
+  width: 25%;
+}
+.title {
+  color: #ff7514;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: cursive;
+  border-bottom: 1px solid aqua;
+}
+.day-exercise ul {
+  list-style: none;
+  padding: 0;
+  background: #22d238;
+
+}
+.day-exercise ul li {
+  text-align: center;
+  border-bottom: 1px solid aqua;
+  color: white;
+}
+.day-exercise ul li:hover {
+  background: tomato;
+}
+.day-exercise ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 1px;
+}
+ ul li a:hover {
+  color: rgb(75, 75, 226);
+}
+.days {
+  text-align: center;
+}
+.days p {
+  color: aqua;
+  font-weight: bold;
+  text-shadow: 5px -4px 3px red;
+  font-size: 43px;
+  background: #020202;
+}
+#show {
+  display: flex;
+  border-bottom: 1px solid blue;
+}
+.BTN1 {
+  display: flex;
+  width: 100%;
+}
+.btn {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.btn button:hover{
+   color: #dc4848;
+   background: white;
+   font-weight: bold;
+   border: 2px solid #dc4848;
+}
+.btn-page{
+    background: #28a745;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+.move-btn .btn-page:hover{
+    opacity: 0.8;
 }
 .btn button {
     width: 100%;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    background: #dc4848;
+    border-radius: 5px;
 }
-.exercise-image{
-    width: 50%;
+.exercise-image {
+  width: 50%;
+}
+.exercise-image4{
+  width: 50%;
+}
+.exercise-image3{
+  width: 50%;
+}
+.exercise-image2{
+  width: 50%;
+}
+#des2{
+  width: 50%;
+  margin-left: 10px;
+}
+#des3{
+  width: 50%;
+  margin-left: 10px;
+}
+#des4{
+  width: 50%;
+  margin-left: 10px;
 }
 #des{
-    width: 50%;
-    margin-left: 10px;
+  width: 50%;
+  margin-left: 10px;
 }
-.content{
-    border-bottom: 1px solid burlywood;
-  
+.content {
+  display: flex;
+  width: 100%;  
 }
-.page{
-    width: 75%;
-    margin: auto;
-    background: aqua;
+.page {
+  width: 80%;
+  margin: auto;
+
+}
+.bton button{
+  background: orange;
+    border: none;
+    padding: 6px;
+    color: white;
+}
+.bton button i{
+   color: white;
+}
+.timeall {
+  font-size: 30px;
+  color: #ff7514;
+}
+#bodyContent{
+  display: flex;
+  justify-content:space-between;
+  font-size: 18px;
+  font-weight: bold;
+  color: teal;
+  align-items: center;
+}
+audio {
+
+  width: 700px;
+  height: 30px;
+}
+audio::-webkit-media-controls-panel {
+    display: flex;
+    -webkit-user-select: none;
+    width: 100%;
+    z-index: 0;
+    bottom: auto;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.meal h2{
+  color: #06afe2;
+}
+.meal {
+  text-align: center;
+}
+.meal div a {
+  color: tomato;
+  text-decoration: none;
+}
+.meal div a:hover {
+  color: blue;
+}
+h6 {
+  font-weight: normal;
+  color: brown;
+  font-size: 10px;
+}
+
+.Footer{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: black;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 20px;
+  color: white;
+}
+.one10 {
+  font-size: 35px;
+}
+.one10 i {
+  color: rgb(219, 199, 17);
+}
+.one1 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.one11 {
+  margin-top: 20px;
+}
+.one11 a {
+  text-decoration: none;
+  color: white;
+}
+.one11 i {
+  padding: 6px;
+  font-size: 26px;
+  background: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-right: 10px;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  color: white;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.two10 {
+  font-size: 20px;
+}
+.two1 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.three {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  color: white;
+  margin-top: 30px;
+}
+.three10 {
+  font-size: 20px;
+}
+.three1 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.four {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  color: white;
+  margin-top: 30px;
+}
+.four10 {
+  font-size: 20px;
+}
+.four1 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.five {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  color: white;
+  margin-top: 30px;
+}
+.five10 {
+  font-size: 20px;
+}
+.five1 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.end {
+  text-align: center;
+
+  font-size: 18px;
+  background: rgb(27, 25, 25);
+  color: white;
+}
+.aa a {
+  text-decoration: none;
+  color: black;
+}
+.aa a:hover {
+  color: red;
+}
+.testt{
+    width: 100%;
+}
+.loiket{
+  padding: 2px;
+}
+.imgae-foods{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.imgae-foods img{
+  width:172px;
+}
+.sticky{
+  position: sticky;
+  top: 107px;
+}
+.Names{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed rgb(127, 127, 207);
 }

@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+body{
+  height: 100%;
+  background-image: url('/images/bg.mp4');
+
 }
-header {
+.Header{
   position: absolute;
   top: 0;
   left: 0;
@@ -16,7 +14,7 @@ header {
   padding: 40px 100px;
   z-index: 1000;
 }
-header .logo {
+.Header .logo {
   position: relative;
   font-size: 2em;
   color: #fff;
@@ -25,13 +23,13 @@ header .logo {
   letter-spacing: 2px;
   text-decoration: none;
 }
-header .logo span {
+.Header .logo span {
   color: #37d72f;
 }
-header .toggle img {
+.Header .toggle img {
   max-width: 100px;
 }
-header .toggle {
+.Header .toggle {
   max-width: 60px;
   cursor: pointer;
 }
@@ -150,3 +148,8 @@ header .toggle {
     flex-direction: column;
   }
 }
+.textBox a:hover{
+  color: #14de24;
+  border: 1px solid #0ec10e;
+}
+
